@@ -1,0 +1,33 @@
+.flex-container{
+    margin:50px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.image {
+    float: left;
+    /* position: relative; */
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* flex-grow: 1; */
+}
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.text{
+    /* flex-grow: 1; */
+    font-family: Georgia;
+} 
+
+
+.name{
+    font-size: 40px;
+}
+
+.descr{
+    font-size:20px;
+}

@@ -1,0 +1,22 @@
+.outside{
+    padding-top: 45px;
+}
+
+
+.test{
+
+    /* padding-top: 40px; */
+    height:1000px;
+  
+    background-color: blue;
+
+}
+
+.test2{
+   
+    position: relative;
+    height:1000px;
+
+    background-color: red;
+
+}
