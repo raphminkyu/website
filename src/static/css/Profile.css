@@ -1,0 +1,42 @@
+.image img{
+    display: inline-block;
+    max-width: 450px;
+    margin:0px;
+    height:auto;
+    /* position: relative; */
+    /* float:right; */
+    /* display: inline-block; */
+    width:90%;
+    /* direction: rtl; */
+    border-radius: 50%;
+    /* flex-grow: 1; */
+}
+
+
+
+
+#role{
+    /* margin:-23px; */
+    margin-top: -23px;
+    margin-bottom: -23px;
+}
+
+
+
+.bigWords{
+    width:200px;
+    font-size:16px;
+    color: #9C9DA3;
+}
+
+
+#dickinsonText{
+  
+    /* background-color:#C8112E; */
+    /* color: #FFFFFF; */
+    color: #E55247;
+    /* margin:-3px; */
+    padding-left: -30px;
+    
+    
+}

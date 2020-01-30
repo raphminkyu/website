@@ -3,14 +3,17 @@
 }
 
 
-.test{
 
-    /* padding-top: 40px; */
+#Timeline{
     height:1000px;
-  
-    background-color: blue;
+    width:100%;
 
+    border-style: solid;
+    
 }
+
+
+
 
 .test2{
    
@@ -20,3 +23,4 @@
     background-color: red;
 
 }
+

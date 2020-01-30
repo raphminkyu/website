@@ -1,33 +1,62 @@
-.flex-container{
-    margin:50px;
-    display:flex;
-    justify-content: space-evenly;
+@font-face{
+    font-family: 'Chronicle-Display-Bold';
+    src: url('fonts/ChronicleDisplayBold.otf');
+    font-weight: bold;
+    font-style: normal;
+
+
 }
 
-.image {
-    float: left;
-    /* position: relative; */
-    overflow: hidden;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    /* flex-grow: 1; */
-}
-.image img {
-    width: 100%;
-    height: auto;
+
+.flex-container{
+    /* margin: 45px 110px 0px 110px; */
+    margin:50px;
+    display:flex;
+    /* justify-content: space-evenly; */
+    /* padding-top: 50px; */
+    padding:0px;
 }
 
 .text{
-    /* flex-grow: 1; */
-    font-family: Georgia;
+    
+    margin-right: 100px;
+    width: 60%;
+    
 } 
 
-
-.name{
-    font-size: 40px;
+ul{
+    list-style-type:none;
 }
 
-.descr{
-    font-size:20px;
+
+
+
+#name{
+    font-size:3em;
+    font-family: "Chronicle-Display-Bold",Georgia,serif;
+    font-weight: bold;
+    
+}
+
+#intro{
+    font-family: Gotham,Helvetica,Arial,sans-serif;
+   
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 1em;
+}
+
+
+p{
+    font-size:1.15em;
+}
+
+#line{
+
+    display: block;
+    margin: 30px 0;
+    width: 100px;
+    height: 3px;
+    background-color: #00b7c7;
 }

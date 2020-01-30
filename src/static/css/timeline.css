@@ -1,0 +1,10 @@
+
+#Timeline > .flex{
+
+    display: block;
+    margin:auto;
+    width: 2px;
+    height: 100%;
+    
+    background-color: #00b7c7;
+}

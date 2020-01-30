@@ -3,7 +3,7 @@ import './App.css';
 import About from "./components/About.js";
 import Contact from "./components/Contact.js";
 import Navig from "./components/Navig.js";
-import Projects from "./components/Projects.js";
+import Timeline from "./components/Timeline.js";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
@@ -32,7 +32,7 @@ function App() {
   <div className="App">
       <Navig />
       <About />
-      <Projects />
+      <Timeline />
       <Contact />
   
   </div>
