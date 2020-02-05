@@ -6,6 +6,7 @@ import Navig from "./components/Navig.js";
 import Timeline from "./components/Timeline.js";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './static/css/styles.css'
 function App() {
   return (
    

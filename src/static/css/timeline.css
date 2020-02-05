@@ -1,10 +1,113 @@
 
-#Timeline > .flex{
+#mainLine{
+    position: relative;
+    margin: 0 0 0 0.5em;
+    padding-left: 1.5em;
+    border-left: solid 1px #00b7c7;
 
-    display: block;
+}
+
+.timeline{
+
+    /* display: block;
     margin:auto;
     width: 2px;
     height: 100%;
     
-    background-color: #00b7c7;
+    background-color: #00b7c7; */
+/* 
+    position: relative;
+    margin: 0 0 0 0.5em;
+    padding-left: 1.5em;
+    border-left: solid 1px #00b7c7; */
+    box-sizing: border-box;
+    background-color: #222425;
+    padding:24px;
+    /* margin-left: 0.5em; */
 }
+
+.timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -0.5em;
+    display: block;
+    width: 1em;
+    height: 1em;
+    border: solid 1px #222222;
+    background-color: #439edb;
+    border-radius: 50%;
+  }
+
+.line-heading-title {
+    line-height: 1;
+    color: #f2f2f2;
+    font-family: Gotham;
+    /* font-size: 18px; */
+    margin:5px 0 10px;
+    font-weight: bold;
+   
+    text-transform: uppercase;
+  }
+.line-heading {
+    /* text-transform: uppercase; */
+    margin: 0;
+    padding-bottom: 0.5em;
+    line-height: 1em;
+    /* font-weight: normal; */
+    /* -webkit-transform: translateY(-0.1em); */
+    /* -ms-transform: translateY(-0.1em); */
+    /* transform: translateY(-0.1em); */
+  }
+
+
+.line-heading-location {
+    /* font-size: 0.9em; */
+    font-size:1.5em;
+    margin-bottom: 10px;
+    color:#00b7c7;
+    font-family: Gotham;
+    font-weight: bold;
+  }
+
+.line-heading-duration {
+    display: block;
+    font-size: 0.8em;
+    color: #6f6f6f;
+  }
+
+.line-details {
+    display: block;
+    margin: 0;
+    padding-bottom: 2em;
+    padding: 0 0 2em 1em;
+    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGElEQVQIW2NkYGD4D8TIgJERTQDMpVAQAGaUAQbko3DsAAAAAElFTkSuQmCC");
+  }
+
+.line-details li{
+    margin-bottom: 0.5em;
+    /* color:firebrick; */
+}
+
+#timeFlex{
+    /* margin-left:100px; */
+    /* margin-right:100px; */
+    height:2000px;
+    width:100%;
+}
+#TimelineIn{
+    margin:100px;
+}
+
+#TimelineEv{
+    background-color: #214959;
+    height:1000px;
+    width:100%; 
+}
+
+
+.timeline:last-of-type {
+    border-left-color: transparent;
+  }
+
+  

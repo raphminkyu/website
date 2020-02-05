@@ -1,11 +1,12 @@
 import React from 'react';
 import HoverD from './micel/hoverDickinson.js';
+import mePic from '../static/img/me.jpg';
 
 // import './logo.svg'
 import '../static/css/About.css'
 import '../static/css/styles.css'
 
-import Profile from "./Profile.js";
+
 
 const About =(props)=>{
     return(
@@ -15,7 +16,7 @@ const About =(props)=>{
 
                     <ul className = "text">
                     
-                        <h1 id = "name">
+                        <h1 className = "title">
                             Hey, I'm Raph. 
                         </h1>
                        
@@ -24,7 +25,7 @@ const About =(props)=>{
                             I'm an aspiring developer anxious to explore the real world full of mysteries and challenges  
                         </h3>
 
-                        <div id = "line">
+                        <div className = "line">
 
                         </div>
                         <li id = "descr">
@@ -35,8 +36,12 @@ const About =(props)=>{
                         text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text 
                         </p>
                     </ul>
-                    <Profile />
-
+                    
+                    <div id = "profile">
+                        <li className = "image">
+                            <img src={mePic}  alt="raph" /> 
+                        </li>
+                    </div>
 
                 
             </ul>
