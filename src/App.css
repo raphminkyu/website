@@ -1,8 +1,10 @@
 .App {
  
-  background-color: #1B1B1B;
+  background-color: #F2F2F2;
   font-family: Georgia;
   color:#FEFEFE;
+  padding-left: 75px;
+  padding-right:75px;
 }
 /* 
 .App-logo {

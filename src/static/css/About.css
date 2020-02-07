@@ -7,6 +7,10 @@
 
 }
 
+#About{
+    background-color: #1B1B1B;
+}
+
 /* image */
 .image img{
     display: inline-block;

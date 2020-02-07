@@ -1,43 +1,107 @@
 
-#mainLine{
+#timeline-main-box{
+
+    /* position: absolute; */
     position: relative;
-    margin: 0 0 0 0.5em;
-    padding-left: 1.5em;
-    border-left: solid 1px #00b7c7;
+    /* width:0 */
+   
+  
+    /* border-left: solid 1px #00b7c7; */
 
 }
+#timeline-main-box::before{
+    content: '';
+    position: absolute;
+    left: calc(50% - 1px);
+    height: 100%;
+    width: 3px;
+    background: #00b7c7;
+    /* font-weight: bold; */
+    /* top:0; */
+
+}
+
+ #dickinson{
+  margin-top: 20px;
+  /* width:50%; */
+width:500px;
+  height:auto;
+ float:right;
+ z-index:1;
+  /* left:100%; */
+}
+
 
 .timeline{
-
-    /* display: block;
-    margin:auto;
-    width: 2px;
-    height: 100%;
-    
-    background-color: #00b7c7; */
-/* 
-    position: relative;
-    margin: 0 0 0 0.5em;
-    padding-left: 1.5em;
-    border-left: solid 1px #00b7c7; */
-    box-sizing: border-box;
-    background-color: #222425;
-    padding:24px;
-    /* margin-left: 0.5em; */
+  box-sizing: border-box;
+  width:48%;
+  display:block;
+  clear:both;
 }
 
-.timeline:before {
+.timeline:nth-child(odd){
+ 
+    padding-left: 4%;    
+}
+
+
+.timeline:nth-child(even){
+  padding-right: 4%; 
+}
+.timeline:nth-child(2){
+    /* display: inline; */
+   float:right;
+
+}
+
+/* .timeline-content:before{ */
+.timeline:nth-child(odd) > .timeline-content:before{
+  content: "";
+  position: absolute;
+  left:100%;
+  top:30px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 20px solid #212325;
+  border-bottom: 15px solid transparent;
+
+
+  }
+
+.timeline:nth-child(even) > .timeline-content:before{
     content: "";
     position: absolute;
-    top: 0;
-    left: -0.5em;
-    display: block;
-    width: 1em;
-    height: 1em;
-    border: solid 1px #222222;
-    background-color: #439edb;
-    border-radius: 50%;
-  }
+    right:100%;
+    top:30px;
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 20px solid #212325;
+    border-bottom: 15px solid transparent;
+    }
+
+.timeline-content{
+  /* display:flex;
+  flex-direction:row; */
+  position: relative;
+  background-color: #222425;
+  padding:1.5em;
+  border-radius: 10px;
+  margin-bottom: 1.5em;
+  overflow-wrap: break-word;
+
+}
+
+.timeline-content-right{
+  position:relative;
+  float:right;
+}
+
+
+.timeline-graduate-icon{
+  /* background-image:url(../img/icon/cap.png); */
+}
 
 .line-heading-title {
     line-height: 1;
@@ -46,6 +110,7 @@
     /* font-size: 18px; */
     margin:5px 0 10px;
     font-weight: bold;
+
    
     text-transform: uppercase;
   }
@@ -67,7 +132,7 @@
     margin-bottom: 10px;
     color:#00b7c7;
     font-family: Gotham;
-    font-weight: bold;
+    /* font-weight: bold; */
   }
 
 .line-heading-duration {
@@ -79,9 +144,8 @@
 .line-details {
     display: block;
     margin: 0;
-    padding-bottom: 2em;
-    padding: 0 0 2em 1em;
-    list-style-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGElEQVQIW2NkYGD4D8TIgJERTQDMpVAQAGaUAQbko3DsAAAAAElFTkSuQmCC");
+    /* padding-bottom: 2em; */
+   
   }
 
 .line-details li{
@@ -95,8 +159,10 @@
     height:2000px;
     width:100%;
 }
+
 #TimelineIn{
     margin:100px;
+   
 }
 
 #TimelineEv{

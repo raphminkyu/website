@@ -1,11 +1,11 @@
 .outside{
     padding-top: 45px;
 }
-*, :after, :before {
+/* *, :after, :before {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
+} */
 
  p{
     font-size:1.15em;

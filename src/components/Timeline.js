@@ -1,5 +1,6 @@
 import React from 'react';
 import '../static/css/timeline.css'
+// import dickinson from '../static/img/dickinson.jpg';
 
 const Timeline = ()=>{
     return(
@@ -14,45 +15,63 @@ const Timeline = ()=>{
 
             </section>
 
-            <div id = "mainLine">
-            <section className = "timeline">
-                <div class="line-heading">
-                    <h2 class="line-heading-title">
-                        Dickinson College
-                    </h2>
-                    <h3 class="line-heading-location">
-                        Carlisle, U.S.
-                    </h3>
-                    <small class="line-heading-duration">
-                        September 2018 - Present
-                    </small>
-                </div>
-                <p class="line-details">
-                texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
-                </p>
-                
-            </section>
+            <div id = "timeline-main-box">
+                {/* <div id = "mainLine"></div> */}
+              
 
-            <br />
+                <section className = "timeline">
+                    
+                    <div className = "timeline-content">
+                    
+                        <div className="line-heading">
+                        
+                            <h2 className="line-heading-title">
+                                Dickinson College
+                            </h2>
+                            <h3 className="line-heading-location">
+                                Carlisle, U.S.
+                            </h3>
+                            <small className="line-heading-duration">
+                                September 2018 - Present
+                            </small>
+                        </div>
+                        <p className="line-details">
+                        Double majoring in Computer Science and Mathemetics. Graduating in May, 2022! I'm part of Student Investment Group (SIG), IdeaFund, and Martial Arts Club!
+                        </p>
 
-            <section className = "timeline">
-                <h3 class="line-heading">
-                    <span class="line-heading-title">
-                        The SMIC Private School
-                    </span>&#8211; 
-                    <span class="line-heading-location">
-                        Shanghai, China 
-                    </span>
-                    <small class="line-heading-duration">
-                        ~2018
-                    </small>
-                </h3>
-                <p>
+                    
+                    </div>
 
-                    texttext
-                </p>
+                    <div className = "timeline-graduate-icon">
+                      
+                    </div>
+                   
 
-            </section>
+                </section>
+              
+
+              
+
+                <section className = "timeline">
+                    <div class = "timeline-content">
+                        <div class="line-heading">
+                            <h2 class="line-heading-title">
+                                Dickinson College
+                            </h2>
+                            <h3 class="line-heading-location">
+                                Carlisle, U.S.
+                            </h3>
+                            <small class="line-heading-duration">
+                                September 2018 - Present
+                            </small>
+                        </div>
+                        <p class="line-details">
+                        texttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttexttext
+                        </p>
+                    </div>
+                    
+                </section>
+                <section className = "timeline"></section>
 
             </div>
 
